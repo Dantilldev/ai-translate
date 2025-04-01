@@ -5,6 +5,7 @@ import {IoMdSwap} from "react-icons/io";
 import {RiRobot2Fill} from "react-icons/ri";
 import LoadingDots from "@/components/LoadingDots";
 import {FaTrashCan} from "react-icons/fa6";
+import Chatbot from "./chatbot";
 
 const languageOptions = [
   {value: "ar", label: "Arabic"},
@@ -131,6 +132,13 @@ export default function Home() {
       >
         Translate
       </button>
+      <div className="flex flex-col items-center mt-15">
+        <h1 className=" flex flex-row gap-3 text-3xl font-bold">
+          <RiRobot2Fill className="text-blue-500 hover:animate-spin" />
+          Chatbot
+        </h1>
+        <Chatbot />
+      </div>
     </div>
   );
 }
