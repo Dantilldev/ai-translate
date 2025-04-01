@@ -61,8 +61,8 @@ export default function Home() {
   }
 
   return (
-    <div className="flex flex-col items-center justify-center m-2">
-      <h1 className=" flex flex-row gap-3 text-3xl font-bold">
+    <div className="flex flex-col items-center justify-center  bg-gray-800 min-h-screen">
+      <h1 className=" flex flex-row gap-3 text-3xl font-bold text-white">
         <RiRobot2Fill className="text-blue-500 hover:animate-spin" />
         AI Translator
       </h1>
@@ -133,7 +133,7 @@ export default function Home() {
         Translate
       </button>
       <div className="flex flex-col items-center mt-15">
-        <h1 className=" flex flex-row gap-3 text-3xl font-bold">
+        <h1 className=" flex flex-row gap-3 text-3xl font-bold text-white">
           <RiRobot2Fill className="text-blue-500 hover:animate-spin" />
           Chatbot
         </h1>

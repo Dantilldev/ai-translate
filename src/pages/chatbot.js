@@ -45,8 +45,8 @@ export default function Chatbot() {
   }
 
   return (
-    <div className="mt-10">
-      <div className="w-full p-4 bg-gray-300 shadow-lg rounded-lg">
+    <div className="mt-5">
+      <div className="w-full p-5 bg-gray-300 shadow-lg rounded-lg">
         <div
           className="h-60 overflow-y-auto border p-2 mb-4 bg-amber-50 rounded-lg"
           ref={chatContainerRef}
